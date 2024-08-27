@@ -1,1 +1,2 @@
 # odin-recipes
+In this project, I developed and refined my HTML skills by creating recipe pages with clear content structure and effective use of elements like images, lists and links. I learned to format HTML documents for readability, manage project changes with meaningful commit meassages and enhance user experience through well-organized and informative content. This project strengthened my understanding of web development basics and the importance of clear documentation and project management.
