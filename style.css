@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0%;
 }
 
 .header-image {
@@ -20,4 +21,43 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
+}
+.imgbox1 {
+    position: relative;
+    width: 500px;
+}
+
+.mybtn {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 10px;
+    transition: 0.3s linear;
+}
+.mybtn:hover {
+    transform: translateY(-5px);
+}
+img {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    box-shadow: rgb(21, 20, 20) 0px 3px 10px;
+}
+
+hi {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
