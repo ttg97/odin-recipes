@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+}
+
+.header-pancake, .header-cookies, .header-lasagna {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header-cookies {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.allrecipes.com/thmb/Bdf8n6bFxfQQAA-4GojXzqQRVJw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-chocolate-chip-cookies-allrecipes-video-10813-4x3-9298be03a9a845989bd7c5457c9fa60d.jpg");
+}
+
+.header-pancake {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.allrecipes.com/thmb/tOfkDV1xc28JMmITPQlQwy3FNWs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg");
+}
+   
+.header-lasagna {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.allrecipes.com/thmb/golmLzT4rSJfJ6QRi4e0G_82mDc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg");
+}
+
+.header-text, .description, .ingredient, .steps, .add-instruction{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text, .steps {
+    color: whitesmoke;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align:left;
+    color: black;
+}
