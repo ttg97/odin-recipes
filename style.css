@@ -23,39 +23,46 @@ body, html {
     color: whitesmoke;
 }
 
-.container img {
+.container {
+    position: relative;
     width: 100%;
     height: auto;
-}
-/*
-.btn {
-    background-color: black;
-    border: none;
-    padding: 16px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    color: whitesmoke;
 }
-*/
-.btn {
+
+.btn-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-group .btn {
     background-color: whitesmoke;
     color: black;
     border: 2px solid #555555;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 10px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn:hover {
+.btn-group .btn:not(:last-child) {
+    border-bottom: none;
+}
+
+.btn-group .btn:hover {
     background-color: #555555;
     color: whitesmoke;
 }
